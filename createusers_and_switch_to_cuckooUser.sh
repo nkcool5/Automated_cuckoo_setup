@@ -7,8 +7,3 @@ sudo adduser $username
 sudo usermod -aG sudo $username
 echo "==================================="
 echo ""
-
-sudo cp -r Cuckoo_Setup /home/$username/
-
-echo "Enter Password for $username" 
-su $username
